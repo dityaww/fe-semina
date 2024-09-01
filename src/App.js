@@ -1,23 +1,16 @@
-import logo from './logo.svg';
+// import { Card, Text } from '@chakra-ui/react';
 import './App.css';
+import Dashboard from './pages/dashboard';
+import SignIn from './pages/signin';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <h1>Hello React</h1> */}
+
+      {/* <Dashboard /> */}
+      <SignIn /> 
+
     </div>
   );
 }
